@@ -8,32 +8,26 @@
 /*   ====================================layout============================================*/
 
 /*   ----------------Barra de Navegação --------------------   */
-.navbar{
-    height: 100px;
-}
-
 nav.navbar-transparente{
-    padding: 15px 0px;
+    padding: 20px 0px;
     background: rgba(0, 0, 0, 0.6);
     border: none;
 
 }
-.navbar-right{
-    padding: 5px 0 0 0;
-}
+
 
 .img-logo{
-    margin: -7px;
+    
     height: 80px;
     width: 210px;
     display: block;
-    background: url('imagens/spotify.png') no-repeat ;
+    background: url('imagens/logo-tangueando.png') no-repeat ;
     background-size: contain;
     color: transparent;
 }
 
 .navbar-brand{
-    padding: 10px 0 0 0;
+    padding: 10px 0;
 }
 
 .divisor{
@@ -44,11 +38,15 @@ nav.navbar-transparente{
 }
 
 .navbar-inverse .navbar-nav>li>a{
-    color: #fff;
+    color: #fff;  
 }
 
 .navbar-inverse .navbar-nav>li>a:hover{
     color: #9bf0e1;
+}
+
+.navbar-collapse{
+    margin-top: 25px;
 }
 
 
